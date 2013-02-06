@@ -1,11 +1,9 @@
 // Dependencies
-var assert = require('assert');
 var mongoose = require('mongoose');
 var mongourl = require('./mongourl');
 
 var ElementSchema = require('./test').Schema;
 var Element = require('./test').Element;
-
 
 var test = require('./test').test;
 var funcs = require('./funcs');
