@@ -7,6 +7,12 @@ var https = require("https");
  * @param callback: callback to pass the results JSON object(s) back
  */
 
+/**
+ *
+ * Not my work : got it here, all credit goes to the author
+ * http://stackoverflow.com/questions/9577611/http-get-request-in-node-js-express
+ *
+*/
 exports.getJSON = function(options, onResult)
 {
     console.log("rest::getJSON");
