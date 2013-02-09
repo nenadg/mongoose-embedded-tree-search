@@ -8,8 +8,7 @@ Plan of accounts of budget beneficiaries of Republic of Srpska
 
 Json array version of document - http://kontni-plan-parsed.pej.st/service/get
 
-Original document can be downloaded here -
-http://www.vladars.net/sr-SP-Cyrl/Vlada/Ministarstva/mf/Servisi/Gradjani/Documents/Prilog%202%20-%20NOVI%20KONTNI%20PLAN%20(2).xls
+Original document can be downloaded here - http://bit.ly/Z1bwNA
 
 ## Example:
 Data whose length is 6 will be 6-th level child of root object.
