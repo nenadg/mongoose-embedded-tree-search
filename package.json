@@ -1,6 +1,6 @@
 {
   "name": "mongoose-embedded-tree-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "author":"Nenad Golubović <me@nenadg.com>",
   "description":"Searching inside hierarchical tree of embedded docs with Node.js and Mongoose",
