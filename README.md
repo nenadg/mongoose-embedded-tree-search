@@ -7,7 +7,7 @@ In this example, the following document will be used - parsed MS Excel documents
 - Plan of accounts of budget beneficiaries of Republic of Srpska
 - Classification of the Functions of Government (COFOG)
 
-Json array version of document - http://kontni-plan-parsed.pej.st/ than follow links.
+Json array version of document - http://budzet.pej.st/ than follow links.
 
 Original documents can be downloaded here http://bit.ly/Z1bwNA and here http://bit.ly/12RxcIF
 

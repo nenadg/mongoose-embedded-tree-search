@@ -9,7 +9,7 @@ var ElementSchema = new Schema({
             genericId       : { type: String, index: { unique: true } },
             name            : { type: String },
             dateCreated     : { type: Date },
-            usluga          : { type: String }
+            value           : { type: String }
 });
 
 ElementSchema.add({
@@ -26,9 +26,9 @@ provider.prototype.save = function(param, next, model){
         
         var Element = mongoose.model(model || 'bi_default', ElementSchema);
         
-        var data = param['brojKonta'];
+        var data = param['brojKonta'] || param['broj'];
         var naziv = param['naziv'];
-        var usluga = param['usluga'];
+        var usluga = param['vrijednost'] || param['usluga'];
              
         var level = (data + '').length - 1;
         var dataDcr = (data + '').substring(0,level);
@@ -38,7 +38,7 @@ provider.prototype.save = function(param, next, model){
                     genericId       : data,
                     name            : naziv,
                     dateCreated     : new Date(),
-                    usluga          : usluga
+                    value           : usluga
                 });
 
             root.schema.add({  
@@ -63,7 +63,7 @@ provider.prototype.save = function(param, next, model){
                     genericId       : data,
                     name            : naziv,
                     dateCreated     : new Date(),
-                    usluga          : usluga
+                    value           : usluga
                         });
 
             child.schema.add({  

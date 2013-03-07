@@ -23,7 +23,7 @@ mongourl.generate(function(url) { mongoose.connect(url) }, db);
 // Data url
 // In this case - parsed MS Excel document - 
 // Plan of accounts of budget beneficiaries of Republic of Srpska  
-var hostname = 'kontni-plan-parsed.pej.st';
+var hostname = 'budzet.pej.st';
 
 var options = {
   host: hostname,
